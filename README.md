@@ -38,6 +38,45 @@ Ele permite cadastrar clientes, criar pedidos, adicionar itens e calcular automa
 
 ---
 
+💡 Exemplo de Execução
+
+Entrada:
+
+Cliente: João Silva
+
+Email: joao@gmail.com
+
+Data de nascimento: 15/05/1995
+
+---
+
+Pedido: PROCESSANDO
+
+Itens: 
+
+1 - Notebook - $3500.00 - Quantidade: 1
+
+2 - Mouse - $150.00 - Quantidade: 2
+
+---
+
+Saída no Terminal:
+
+MOMENTO DO PEDIDO: 11/09/2025 21:15:32
+
+STATUS DO PEDIDO: PROCESSANDO
+
+CLIENTE: João Silva (15/05/1995) - joao@gmail.com
+
+ITENS DO PEDIDO: 
+
+Notebook, $3500.00, quantidade: 1, SubTotal: $3500.00
+
+Mouse, $150.00, quantidade: 2, SubTotal: $300.00
+
+PREÇO TOTAL: $3800.00
+
+---
 👨‍💻 Autor
 
 João Neto
