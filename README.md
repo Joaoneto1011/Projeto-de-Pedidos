@@ -1,6 +1,6 @@
 # 📦 Sistema de Gestão de Pedidos em Java
 
-Este projeto é um **sistema simples de gerenciamento de pedidos**, desenvolvido em **Java**, com foco em **programação orientada a objetos (POO)**.  
+Este projeto é um **sistema de gerenciamento de pedidos**, desenvolvido em **Java**, com foco em **programação orientada a objetos (POO)**.  
 Ele permite cadastrar clientes, criar pedidos, adicionar itens e calcular automaticamente o valor total do pedido.
 
 ---
@@ -16,15 +16,16 @@ Ele permite cadastrar clientes, criar pedidos, adicionar itens e calcular automa
 
 ---
 
+## 🔹 Classes Principais
 
-### 🔹 Classes principais
-
-- **Cliente** → Armazena informações do cliente.  
-- **Produto** → Representa os produtos disponíveis.  
-- **ItemPedido** → Relaciona um produto ao pedido (com preço e quantidade).  
-- **Pedido** → Contém os itens, cliente, status e calcula o valor total.  
-- **StatusPedido (enum)** → Define os estados possíveis de um pedido.  
-- **ProgramaPrincipal** → Classe principal que integra todas as partes.
+| Classe / Pacote | Descrição |
+|-----------------|-----------|
+| `Cliente` | Armazena informações do cliente, como nome, e-mail e data de nascimento. |
+| `Produto` | Representa os produtos disponíveis para venda. |
+| `ItemPedido` | Relaciona um produto a um pedido, incluindo preço unitário e quantidade. |
+| `Pedido` | Contém os itens, cliente, status do pedido e calcula o valor total do pedido. |
+| `StatusPedido` (enum) | Enum que define os estados possíveis de um pedido, como `PAGAMENTO_PENDENTE`, `PROCESSANDO`, `ENVIADO`, `ENTREGUE`. |
+| `ProgramaPrincipal` | Classe principal que integra todas as partes do sistema, realiza entradas do usuário e exibe o relatório do pedido. |
 
 ---
 ## ⚙️ Tecnologias e Conceitos Aplicados
